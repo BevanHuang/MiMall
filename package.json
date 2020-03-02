@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "serve": "vue-cli-service serve --mode=development",
+    "test": "vue-cli-service serve --mode=test",
+    "build": "vue-cli-service build --mode=production"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -16,6 +17,7 @@
     "axios": "^0.19.2",
     "element-ui": "^2.13.0",
     "jsonp": "^0.2.1",
+    "mockjs": "^1.1.0",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     "vue-awesome-swiper": "^3.1.3",

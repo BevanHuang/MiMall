@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <i class="iconfont">&#xe62b;</i>
   </div>
 </template>
 
@@ -36,4 +35,7 @@ export default {
 <style>
 @import './assets/scss/index.css';
 @import './assets/scss/reset.scss';
+body {
+  background-color: #fafafa;
+}
 </style>

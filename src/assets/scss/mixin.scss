@@ -4,3 +4,10 @@
     justify-content: $hov;
     align-items: $col;
 }
+
+a.fullfill {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
